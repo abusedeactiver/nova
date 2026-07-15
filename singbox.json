@@ -96,7 +96,7 @@
       "server_port": 443,
       "uuid": "a51dc67d-4e71-4572-84e2-3b8dbd725b7a",
       "transport": {
-        "path": "/video/GhdFHRNTFV4PRwpUWl4BFxsQRVdHEVxMXgcaXkBVDgcbUAdQTwcBUk0PAEYBFhVYQ1kWDwYCFQhJ",
+        "path": "/proxyip=144.31.63.230",
         "type": "ws",
         "headers": {
           "Host": "pro.clickeyourip1.cloudns.nz"
@@ -119,7 +119,7 @@
       "server_port": 443,
       "uuid": "a51dc67d-4e71-4572-84e2-3b8dbd725b7a",
       "transport": {
-        "path": "/video/GhdFHRNTFV4PRwpUWl4BFxsQRVdHEVxMXgcaXkBVDgcbUAdQTwcBUk0PAEYBFhVYQ1kWDwYCFQhJ",
+        "path": "/proxyip=144.31.63.230",
         "type": "ws",
         "headers": {
           "Host": "pro.clickeyourip1.cloudns.nz"
@@ -142,7 +142,7 @@
       "server_port": 443,
       "uuid": "a51dc67d-4e71-4572-84e2-3b8dbd725b7a",
       "transport": {
-        "path": "/video/GhdFHRNTFV4PRwpUWl4BFxsQRVdHEVxMXgcaXkBVDgcbUAdQTwcBUk0PAEYBFhVYQ1kWDwYCFQhJ",
+        "path": "/proxyip=144.31.63.230",
         "type": "ws",
         "headers": {
           "Host": "pro.clickeyourip1.cloudns.nz"
@@ -165,7 +165,7 @@
       "server_port": 2053,
       "uuid": "a51dc67d-4e71-4572-84e2-3b8dbd725b7a",
       "transport": {
-        "path": "/video/GhdFHRNTFV4PRwpUWl4BFxsQRVdHEVxMXgcaXkBVDgcbUAdQTwcBUk0PAEYBFhVYQ1kWDwYCFQhJ",
+        "path": "/proxyip=144.31.63.230",
         "type": "ws",
         "headers": {
           "Host": "pro.clickeyourip1.cloudns.nz"
