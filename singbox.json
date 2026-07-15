@@ -90,98 +90,6 @@
       "tag": "DIRECT"
     },
     {
-      "type": "vless",
-      "tag": "سرویس رایگان نوا pro.clickeyourip1.cloudns.nz:443 [VLESS]",
-      "server": "pro.clickeyourip1.cloudns.nz",
-      "server_port": 443,
-      "uuid": "a51dc67d-4e71-4572-84e2-3b8dbd725b7a",
-      "transport": {
-        "path": "/proxyip=144.31.63.230",
-        "type": "ws",
-        "headers": {
-          "Host": "pro.clickeyourip1.cloudns.nz"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "pro.clickeyourip1.cloudns.nz",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "سرویس رایگان نوا 104.17.66.138:443 [VLESS]",
-      "server": "104.17.66.138",
-      "server_port": 443,
-      "uuid": "a51dc67d-4e71-4572-84e2-3b8dbd725b7a",
-      "transport": {
-        "path": "/proxyip=144.31.63.230",
-        "type": "ws",
-        "headers": {
-          "Host": "pro.clickeyourip1.cloudns.nz"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "pro.clickeyourip1.cloudns.nz",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "سرویس رایگان نوا 190.93.244.130:443 [VLESS]",
-      "server": "190.93.244.130",
-      "server_port": 443,
-      "uuid": "a51dc67d-4e71-4572-84e2-3b8dbd725b7a",
-      "transport": {
-        "path": "/proxyip=144.31.63.230",
-        "type": "ws",
-        "headers": {
-          "Host": "pro.clickeyourip1.cloudns.nz"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "pro.clickeyourip1.cloudns.nz",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "سرویس رایگان نوا 104.27.96.197:2053 [VLESS]",
-      "server": "104.27.96.197",
-      "server_port": 2053,
-      "uuid": "a51dc67d-4e71-4572-84e2-3b8dbd725b7a",
-      "transport": {
-        "path": "/proxyip=144.31.63.230",
-        "type": "ws",
-        "headers": {
-          "Host": "pro.clickeyourip1.cloudns.nz"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "pro.clickeyourip1.cloudns.nz",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "type": "selector",
       "tag": "🚀 节点选择",
       "outbounds": [
@@ -189,21 +97,14 @@
         "♻️ 自动选择",
         "🔯 故障转移",
         "🔮 负载均衡",
-        "DIRECT",
-        "سرویس رایگان نوا pro.clickeyourip1.cloudns.nz:443 [VLESS]",
-        "سرویس رایگان نوا 104.17.66.138:443 [VLESS]",
-        "سرویس رایگان نوا 190.93.244.130:443 [VLESS]",
-        "سرویس رایگان نوا 104.27.96.197:2053 [VLESS]"
+        "DIRECT"
       ]
     },
     {
       "type": "urltest",
       "tag": "♻️ 自动选择",
       "outbounds": [
-        "سرویس رایگان نوا pro.clickeyourip1.cloudns.nz:443 [VLESS]",
-        "سرویس رایگان نوا 104.17.66.138:443 [VLESS]",
-        "سرویس رایگان نوا 190.93.244.130:443 [VLESS]",
-        "سرویس رایگان نوا 104.27.96.197:2053 [VLESS]"
+        "DIRECT"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "5m",
@@ -213,20 +114,14 @@
       "type": "urltest",
       "tag": "🔯 故障转移",
       "outbounds": [
-        "سرویس رایگان نوا pro.clickeyourip1.cloudns.nz:443 [VLESS]",
-        "سرویس رایگان نوا 104.17.66.138:443 [VLESS]",
-        "سرویس رایگان نوا 190.93.244.130:443 [VLESS]",
-        "سرویس رایگان نوا 104.27.96.197:2053 [VLESS]"
+        "DIRECT"
       ]
     },
     {
       "type": "urltest",
       "tag": "🔮 负载均衡",
       "outbounds": [
-        "سرویس رایگان نوا pro.clickeyourip1.cloudns.nz:443 [VLESS]",
-        "سرویس رایگان نوا 104.17.66.138:443 [VLESS]",
-        "سرویس رایگان نوا 190.93.244.130:443 [VLESS]",
-        "سرویس رایگان نوا 104.27.96.197:2053 [VLESS]"
+        "DIRECT"
       ]
     },
     {
@@ -257,11 +152,7 @@
         "🎯 全球直连",
         "♻️ 自动选择",
         "🔯 故障转移",
-        "🔮 负载均衡",
-        "سرویس رایگان نوا pro.clickeyourip1.cloudns.nz:443 [VLESS]",
-        "سرویس رایگان نوا 104.17.66.138:443 [VLESS]",
-        "سرویس رایگان نوا 190.93.244.130:443 [VLESS]",
-        "سرویس رایگان نوا 104.27.96.197:2053 [VLESS]"
+        "🔮 负载均衡"
       ]
     },
     {
@@ -274,11 +165,7 @@
         "🎯 全球直连",
         "♻️ 自动选择",
         "🔯 故障转移",
-        "🔮 负载均衡",
-        "سرویس رایگان نوا pro.clickeyourip1.cloudns.nz:443 [VLESS]",
-        "سرویس رایگان نوا 104.17.66.138:443 [VLESS]",
-        "سرویس رایگان نوا 190.93.244.130:443 [VLESS]",
-        "سرویس رایگان نوا 104.27.96.197:2053 [VLESS]"
+        "🔮 负载均衡"
       ]
     },
     {
@@ -286,11 +173,7 @@
       "tag": "GLOBAL",
       "outbounds": [
         "📢 https://t.me/irnova_proxy",
-        "DIRECT",
-        "سرویس رایگان نوا pro.clickeyourip1.cloudns.nz:443 [VLESS]",
-        "سرویس رایگان نوا 104.17.66.138:443 [VLESS]",
-        "سرویس رایگان نوا 190.93.244.130:443 [VLESS]",
-        "سرویس رایگان نوا 104.27.96.197:2053 [VLESS]"
+        "DIRECT"
       ]
     },
     {
